@@ -1,0 +1,238 @@
+.lightHeader {
+    .nav-link {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      color: black;
+  
+      img {
+        margin-left: 14.25px;
+        width: 10px;
+        height: auto;
+        color: #00cedf !important;
+      }
+    }
+  }
+  
+  .darkHeader {
+    .navbar-brand {
+      // background-color: white;
+      padding: 10px !important;
+      border-radius: 10px;
+    }
+  
+    .nav-link {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      color: #ffffff !important;
+  
+      img {
+        margin-left: 14.25px;
+        width: 10px;
+        height: auto;
+        color: #ffffff !important;
+        filter: invert(1);
+      }
+    }
+  }
+  
+  /* navigation bar */
+  
+  .compactNav {
+    background-color: #ffffff;
+    max-height: 70px;
+    box-shadow: 0px 0px 20px rgba(71, 59, 240, 0.3);
+  
+    nav {
+      max-height: 70px;
+  
+      img {
+        max-height: 40px !important;
+      }
+    }
+  }
+  
+  .navbarDiv {
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+  
+    nav {
+      width: 87.55vw;
+      height: 149px;
+  
+      .navbar-brand {
+        padding-right: 20px;
+        
+        img {
+          height:35px;
+        }
+      }
+  
+      .navbar-toggler img {
+        width: 40px;
+        height: auto;
+      }
+  
+      .nav-item {
+        padding: 0px 80px;
+  
+        .dropdown-toggle::after {
+          display: none;
+        }
+      }
+  
+      .nav-link {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+
+        font-family: "Poppins";
+        color: rgba(102, 65, 65, 0.8);
+        font-size: 16px;
+  
+        img {
+          margin-left: 14.25px;
+          width: 10px;
+          height: auto;
+          color: #00cedf;
+        }
+      }
+  
+      .nav-link-active {
+        color: #FF9C66;;
+      }
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    nav {
+      z-index: 1000;
+  
+      .navbar-brand {
+        padding-right: 0px !important;
+  
+        img {
+          height: 35px !important;
+          width: auto;
+        }
+      }
+  
+      .nav-item {
+        padding: 0px 0px !important;
+      }
+  
+      .navbar-nav {
+        background-color: #ffffff;
+  
+        .nav-link {
+          color: black;
+        }
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+
+    .dropdown-menu {
+      border:none;
+      text-align: center;
+      padding-top:0;
+
+        a {
+          color:rgba(102, 65, 65, 0.5);
+          font-size:20px;
+        }
+      
+    }
+    nav {
+      .navbar-brand {
+        img {
+          height: 20px !important;
+        }
+      }
+    }
+    .navbarDiv {
+      height: 50px;
+      nav {
+        width: 100vw;
+        height: 50px;
+        .navbar-toggler {
+          img {
+            width: 25px;
+            height: auto;
+          }
+        }
+        .nav-link-active {
+          color: #FF9C66;
+        }
+      }
+    }
+    #navbarTop {
+      width: 100vw;
+      background: #fdfdfd;
+      height: 100vh;
+      text-align: center;
+      position: fixed;
+      top:0px;
+  
+      ul {
+        background: #fdfdfd;
+        margin-top:90px;
+        li {
+          margin-bottom: 15px;
+          span {
+            font: {
+              size: 24px;
+            }
+          }
+        }
+      }
+  
+      .socials {
+        margin: 0 auto;
+        bottom: 30px;
+        width: 100%;
+  
+        img {
+          width: 24px;
+          height: auto;
+        }
+      }
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    #navbarTop {
+      height: 87vh;
+  
+      ul {
+        background: #fdfdfd;
+        li {
+          margin-bottom: 15px;
+          span {
+            font: {
+              size: 32px;
+            }
+          }
+        }
+      }
+  
+      .socials {
+        bottom: 40px;
+  
+        img {
+          width: 32px;
+          height: auto;
+        }
+      }
+    }
+  }
+  
+
+  .z-index-top {
+      z-index: 99;
+  }

@@ -1,0 +1,450 @@
+.youData {
+  &Title {
+    color: #7C4F4F;
+    margin-bottom: 120px !important;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+  }
+
+  &Main {
+    h2 {
+      color: #ffa370;
+     
+    }
+
+  
+.bgBug {
+  position: absolute;
+  z-index: -1000;
+  top: 0;
+  right: 0;
+
+  img {
+      max-width: 100vw;
+  }
+}
+
+@media (max-width: 768px) {
+      .bgBug {
+        img {
+          max-width: 65vw;
+        }
+      }
+    }
+}
+  
+  @media (min-width: 1210px) {
+    .youDataContactContainer {
+      background: url("../assets/img/youData/footer-background.svg") no-repeat;
+      background-size: 100%;
+      border-radius: 20px !important;
+      min-width: 80%;
+      min-height: 250px;
+      padding: 60px;
+      margin: auto;
+      width: 100%;
+    }
+    &Stories {
+      &Img {
+        width: 70%;
+      }
+  
+      .fixSideImg {
+        // position: absolute;
+        margin-top: -200px !important;
+        width: 100%;
+        height: 100%;
+           
+      }
+      .highimg{
+        width: 90%;
+        height: 100%;
+      }
+    }
+    &Main {
+      h2 {
+        color: #ffa370;
+        // font-family: Rubik;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 70px;
+      }
+    }
+    &Header {
+      &Title {
+        color: #ffa370;
+        margin-top: 100px;
+      }
+  
+      &Container {
+        margin-bottom: 200px;
+      }
+  
+      &Subtitle {
+        color: #664141;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 50px;
+       
+      }
+  
+      &Text {
+        color: rgba(102, 65, 65, 0.8);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 35px;
+        line-height: 64px;
+        /* or 229% */
+  
+        letter-spacing: -0.01em;
+      }
+  
+      &Img {
+        margin-top: -10px;
+        float: right;
+      }
+    }
+  
+  }
+
+  
+  &Header {
+    &Title {
+      color: #ffa370;
+      margin-top: 100px;
+    }
+
+    &Container {
+      margin-bottom: 200px;
+    }
+
+    &Subtitle {
+      color: #664141;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 50px;
+     
+    }
+
+    &Text {
+      color: rgba(102, 65, 65, 0.8);
+     
+    }
+
+    &Img {
+      margin-top: -10px;
+      float: right;
+    }
+  }
+
+  &Achievement {
+    &Section {
+      display: none;
+    }
+  }
+
+  &Stories {
+    &Img {
+      width: 70%;
+    }
+
+    // .fixSideImg {
+    //   // position: absolute;
+    //   margin-top: -100px !important;
+      
+    
+    // }
+
+    .yellowOne {
+      color: #FFBF75 !important;
+    }
+
+    &Container {
+      margin-bottom: 120px !important;
+    }
+  }
+
+  &Products {
+    display: none !important;
+
+    &Btn {
+      margin-top: 10rem !important;
+      background-color: #ffa370 !important;
+      border-color: #ffa370 !important;
+    }
+  }
+
+  &Reasons {
+    max-width: 100%;
+    &* {
+      color: #7c4f4f;
+    }
+    &Container {
+      max-width: 100%;
+      display: grid;
+      grid-template-columns: (1fr 1fr 1fr);
+    }
+
+    &Content {
+      display: flex;
+    }
+
+    &Info {
+      margin-left: 1rem;
+    }
+
+    &Title {
+      color: #7C4F4F;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  &Contact {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+    &Container {
+      background: url("../assets/img/youData/footer-background.svg") no-repeat;
+      background-size: auto 100%;
+      border-radius: 20px !important;
+      min-width: 80%;
+      min-height: 250px;
+      padding: 60px;
+      margin: auto;
+    }
+
+    &Btn {
+      border-radius: 20px !important;
+      color: #ffa370;
+      font-weight: bold !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &Title {
+      margin-bottom: 0px !important;
+    }
+
+    &Main {
+      margin-top: 3rem;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+    }
+
+    &Header {
+      &Container {
+        display: flex !important;
+        flex-flow: column-reverse !important;
+        margin-bottom: 0 !important;
+
+        & div {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+
+      &Title {
+        margin-top: 1rem;
+        font-size: 28px; //We turn it into h3
+      }
+
+      &Subtitle {
+        font-size: 28px; //We turn it into h3
+      }
+
+      &Img {
+        width: 40%;
+        margin-left: auto;
+        margin-top: -65px;
+        margin-bottom: 40px;
+
+        &Container {
+          width: 100%;
+          display: flex;
+        }
+      }
+    }
+
+    &Achievement {
+      &Section {
+        display: block;
+      }
+
+      &Container {
+        display: flex;
+        align-items: center;
+      }
+
+      &Img {
+        margin-right: 2rem;
+      }
+
+      &Text {
+        display: flex;
+
+        &Title {
+          color: rgba(102, 65, 65, 0.8);
+        }
+
+        &Alternate {
+          color: #664141;
+          margin-right: 0.5rem;
+        }
+      }
+    }
+
+    &Stories {
+      margin-left: 0;
+      margin-right: 0;
+      padding-right: 0;
+      padding-right: 0;
+      width: 100%;
+
+      &Container {
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0 !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+
+        &Alternate {
+          display: flex;
+          flex-flow: column-reverse;
+        }
+      }
+
+      &Img {
+        width: 100%;
+        margin-top: 0 !important;
+      }
+
+      &Content {
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0rem;
+        padding-left: 1.2rem;
+      }
+
+      &Title {
+        margin-top: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 28px; //We turn it into h3
+      }
+
+      &Text {
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0 !important;
+        padding-left: 0;
+        width: 100% !important;
+      }
+    }
+
+    &Products {
+      margin-left: 0;
+      margin-right: 0;
+      padding-right: 0;
+      padding-right: 0;
+      width: 100%;
+      display: none !important;
+
+      &Container {
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+
+        &Alternate {
+          display: flex;
+          flex-flow: column-reverse;
+        }
+      }
+
+      &Img {
+        width: 100%;
+      }
+
+      &Content {
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0rem;
+        padding-left: 1.2rem;
+      }
+
+      &Title {
+        margin-top: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 28px; //We turn it into h3
+      }
+
+      &Text {
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0 !important;
+        padding-left: 0;
+        width: 100% !important;
+      }
+
+      &Btn {
+        margin-top: 1rem !important;
+      }
+    }
+
+    &Reasons {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      &Container {
+        min-width: 70%;
+        display: grid;
+        grid-template-columns: (1fr 1fr 1fr);
+      }
+
+      &Content {
+        display: flex;
+        flex-flow: column;
+        justify-items: center;
+        align-items: center;
+      }
+
+      &Info {
+        margin-left: 0;
+      }
+
+      &Title {
+        text-align: center;
+        font-size: 16px; //We turn it into h6
+      }
+
+      &Text {
+        display: none;
+      }
+    }
+
+    &Contact {
+      &Container {
+        background-size: fill;
+        min-height: 30vh;
+
+        > div {
+          padding: 1rem !important;
+        }
+      }
+
+      &Title {
+        font-size: 22px; //We turn it into h4
+      }
+    }
+  }
+}

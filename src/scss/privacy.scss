@@ -1,0 +1,58 @@
+.privacyPage {
+
+    .privacyPageTitle {
+        max-width: 400px!important;
+        margin: auto!important;
+        margin-bottom: 40px!important;
+        margin-top: 3rem!important;
+        color: white!important;
+    }
+
+    h2 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px!important;
+        margin-top: 20px;
+        color: #7C4F4F;
+        width:100%;
+    }
+
+    p {
+        width: 100%;
+    }
+    
+    .formWrapper {
+        padding: 10px 60px;
+        border-radius: 30px;
+    }
+
+    @media screen and (max-width: 767px) {
+        .formWrapper {
+            padding: 10px 20px;
+        }    
+    }
+
+    .strong {
+        color: #FF9C66;
+        font-weight:400;
+        max-width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    p.note {
+        color: #FF9C66;
+    }
+
+    a {
+        color: #FF9C66;
+    }
+
+    span {
+        color:#FF9C66;
+    }
+
+    
+}

@@ -1,0 +1,169 @@
+.contactUs {
+  &Form {
+    &Container {
+      background: url("../assets/img/youData/contactus/form-background.svg")
+        no-repeat center center;
+      background-size: cover;
+      border-radius: 30px;
+
+      input::placeholder, option::disabled {
+        color: rgba(102, 65, 65, 0.5);
+      }
+    }
+
+    &Img {
+      z-index: 10;
+      position: absolute;
+      right: 300px;
+      width: 280px;
+      top: 200px;
+    }
+
+    &Label {
+      color: #ffa370;
+    }
+
+    &Title {
+      width:100%;
+      h2 {
+        max-width: 400px;
+        margin:auto;
+        margin-bottom:40px;
+        margin-top: 3rem;
+      }
+
+      @media screen and (max-width: 767px){
+        h2 {
+          max-width: 250px;
+          font-size:24px;
+          margin-top: 70px;
+          margin-bottom: 15px;
+        }
+
+        
+      }
+
+      
+    }
+
+    @media screen and (max-width:767px) {
+      &Container {
+        padding:0px;
+      }
+    }
+
+    @media screen and (max-width: 1650px){
+      &Img {
+        position: absolute;
+        right: 94px;
+        width: 220px;
+        top: 240px;
+      }
+    }
+
+    @media screen and (max-width: 1199px){
+      &Img {
+        z-index: 10;
+        position: absolute;
+        width:150px;
+        left:0;
+        right:0;
+        margin-right: auto;
+        margin-left: auto;
+        top: 120px;
+      }
+    }
+
+    @media screen and (max-width: 767px){
+      &Img {
+        z-index: 10;
+        position: absolute;
+        width:150px;
+        left:0;
+        right:0;
+        margin-right: auto;
+        margin-left: auto;
+        top: 110px;
+      }
+    }
+
+    
+  }
+
+  &Footer {
+    &Img {
+      width: 100%;
+    }
+
+    &Title {
+      color: #ffa370;
+    }
+
+    &Text {
+      color: rgba(102, 65, 65, 0.8);
+      line-height: 50px;
+    }
+
+    @media (max-width: 767px) {
+      &Text {
+        line-height: 1.5;
+        margin-top:25px;
+      }
+    }
+  }
+
+  &Button {
+    background-color: #ffa370 !important;
+    border-color: #ffa370 !important;
+    border-radius: 18px;
+    padding: 0px 43px;
+    margin: auto;
+  }
+
+  @media (min-width: 768px) {
+
+    &Button {
+      border-radius: 8px!important;
+      padding: 0px 50px;
+    }
+  }
+
+
+
+  .contactUsCard {
+    max-width: 1200px;
+    margin:auto;
+    border: 1px solid #E6E6E6;
+    border-radius: 8px;
+
+      label {
+        font-size: 16px;
+        font-weight: bold!important;
+        color: #FF9C66;
+      }
+
+      input {
+        border: 1px solid rgba(102, 65, 65, 0.1);
+        border-radius: 8px;
+        padding: 25px 15px;
+        color: #030303;
+      } 
+
+      textarea {
+        resize:none;
+        border: 1px solid #C3CAD9;
+        border-radius: 8px;
+        padding: 10px 15px;
+        color: #030303;
+      }
+
+      select {
+        height:52px;
+      }
+    }
+
+
+    a:hover {
+      text-decoration: none;
+    }
+}

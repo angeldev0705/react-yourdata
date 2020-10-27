@@ -1,0 +1,18 @@
+<svg width="1552" height="872" viewBox="0 0 1552 872" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0)">
+    <rect width="1552" height="872" rx="30" fill="#FFA370"/>
+    <g opacity="0.7">
+    <circle cx="1127.25" cy="107.558" r="39.1184" fill="#FFBB95"/>
+    <circle cx="1494.17" cy="343.263" r="21.9324" fill="#FFBB95"/>
+    <circle cx="1472.24" cy="571.763" r="16.7631" fill="#FFBB95"/>
+    <circle cx="79.4118" cy="82.1863" r="30.5095" fill="#FFBB95"/>
+    <circle cx="103.547" cy="172.151" r="10.3892" fill="#FFBB95"/>
+    <circle r="14.9776" transform="matrix(-1 0 0 1 273.821 153.386)" fill="#FFBB95"/>
+    <circle opacity="0.15" cx="170.578" cy="541.254" r="10.2536" fill="#FFBB95"/>
+    <circle cx="207.265" cy="383.476" r="26.4327" fill="#FFBB95"/>
+    <circle cx="451.999" cy="94.8723" r="12.6863" fill="#FFBB95"/>
+    <circle cx="1388.98" cy="681.938" r="27.165" fill="#FFBB95"/>
+    <path d="M0 319.599C58.5113 311.866 147.727 284.8 224.197 300.267C300.667 315.733 387.565 387.264 434.49 400.797C481.415 414.33 571.789 452.996 752.537 284.8C933.286 116.605 1131.41 250.001 1166.17 284.8C1200.93 319.599 1260.02 414.33 1339.97 452.996C1403.93 483.928 1507.97 465.884 1552 452.996" stroke="#FFBB95" stroke-width="4"/>
+    </g>
+    </g>
+    </svg>

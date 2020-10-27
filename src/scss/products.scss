@@ -1,0 +1,176 @@
+.products {
+  &Header {
+    &Img {
+      width: 60%;
+      float: right;
+    }
+  }
+
+  &Title {
+    padding-right: 6rem;
+    // padding-top: 100px;
+    color: #664141;
+
+    &Variation {
+      color: #ffa370;
+    }
+  }
+
+  &Solutions {
+    &Img {
+      width: 100%;
+    }
+
+    &Title {
+      color: #ffa370;
+
+      &Desktop {
+        display: block;
+      }
+
+      &Mobile {
+        display: none;
+        text-align: center;
+      }
+    }
+
+    &Text {
+      color: rgba(102, 65, 65, 0.8);
+    }
+  }
+
+  &Form {
+    display: none;
+    &Img {
+      position: absolute;
+      right: 4rem;
+      z-index: 10;
+    }
+  }
+
+  &Contact {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 70%;
+
+    &Container {
+      background: url("../assets/img/youData/products/footer-background.svg")
+        no-repeat;
+      background-size: cover;
+      border-radius: 20px !important;
+      min-height: 24rem;
+      padding: 1rem;
+      margin: auto;
+    }
+
+    &Title {
+      color: #7c4f4f;
+      padding: 3rem 12rem;
+    }
+
+    &Btn {
+      border-radius: 20px !important;
+      color: #ffa370;
+      font-weight: bold !important;
+      padding: 1rem 0.5rem;
+      line-height: 2ch;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &Header {
+      &Container {
+        display: flex !important;
+        flex-flow: column-reverse !important;
+
+        & div {
+          padding-left: 0;
+          padding-right: 0;
+        }
+      }
+
+      &Img {
+        width: 40%;
+        margin: auto;
+        justify-self: right;
+      }
+
+      &Content {
+        padding-left: 0 !important;
+      }
+
+      & .productsTitle {
+        margin-top: 1rem;
+        font-size: 28px; //We turn it into h3
+        padding-right: 2rem;
+        padding-left: 0;
+      }
+    }
+
+    &Solutions {
+      margin: auto;
+      padding: 0 !important;
+      width: 100% !important;
+
+      & .productsTitle {
+        padding-right: 0;
+        padding-left: 0;
+      }
+
+      &Container {
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+
+        &Alternate {
+          display: flex;
+          flex-flow: column-reverse;
+        }
+      }
+
+      &Img {
+        width: 100%;
+      }
+
+      &Title {
+        &Desktop {
+          display: none;
+        }
+
+        &Mobile {
+          text-align: center;
+          display: block;
+          width: 100%;
+        }
+      }
+
+      &Text {
+        width: 100% !important;
+      }
+    }
+
+    &Form {
+      display: none !important;
+    }
+
+    &Contact {
+      display: none;
+      &Container {
+        background-size: 40% 40%;
+        min-height: 30vh;
+      }
+
+      &Content {
+        padding: 0 !important;
+      }
+
+      &Title {
+        padding: 0;
+        font-size: 22px; //We turn it into h4
+      }
+    }
+  }
+}

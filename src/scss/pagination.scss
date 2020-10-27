@@ -1,0 +1,18 @@
+.paginationComponent {
+    ul {
+        list-style-type: none;
+
+        li {
+            display: inline;
+            margin-right: 35px;
+
+            a {
+                color:rgba(102, 65, 65, 0.5);
+            }
+
+            a.active {
+                color: #7C4F4F;
+            }
+        }
+    }
+}

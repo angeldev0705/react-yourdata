@@ -1,0 +1,18 @@
+let uuid = process.env.UUID || "e789cce6-6804-471e-883b-fa4f33d1cbb9"
+const subfolder = process.env.SUBFOLDER || "/"
+const { siteUrl } = require('./subfolder')
+
+exports.config = {
+    host: "https://youweb.youpal.se/", //backend url
+    siteUrl: siteUrl || "https://youweb.youpal.se/", //deployed site url
+    pathPrefix: subfolder,
+    mediafolder: "./src/images/downloaded/", //media download path
+    uuid,
+    endPoints: [
+        {
+            url: `https://youweb.youpal.se/api/landing_page/${uuid}/?include=sections,sections.boxes,sections.boxes.image,sections.colorScheme,sections.layout,sections.image,sections.background,sections.images,footer,footer.boxes,footer.boxes.image,footer.background,domain,logo,favicon`,
+            saveName: "api.json"
+        }
+    ],
+    mode: "prod", // with "dev" it will fallback to SPA and not use the downloaded JSON import
+}

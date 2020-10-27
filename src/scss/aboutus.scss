@@ -1,0 +1,84 @@
+
+.aboutUs {
+  &Header {
+    &Img {
+      position: relative;
+      width: 900px;
+      float: right;
+      padding-left: 30px;
+      padding-top: 70px;
+    }
+
+    &Text {
+      color: rgba(102, 65, 65, 0.8);
+    }
+  }
+
+  &Title {
+    color: #664141;
+    margin-top: 100px;
+    max-width: 476px;
+
+    @media screen and (max-width:767px){
+      &Main {
+        font-size:24px;
+        margin-top: 3rem;
+      }
+    }
+
+    &Variation {
+      color: #ffa370;
+    }
+  }
+
+  &Section {
+    &Img {
+      width: 100%;
+    }
+
+    &Text {
+      color: #ffa370;
+    }
+
+    @media screen and (max-width:767px) {
+      &Text {
+        font-size: 24px;
+      }
+    }
+  }
+
+  &Team {
+    &Img {
+      width: 100%;
+      object-fit: contain;
+    }
+
+    &Title {
+      color: #ffa370;
+    }
+
+    &Proffession {
+      background-color: rgba(255, 170, 123, 0.1);
+      border-radius: 50px;
+      color: #ffa370;
+    }
+
+    &Testimony {
+      color: rgba(102, 65, 65, 0.8);
+    }
+
+    @media screen and (max-width:767px) {
+      &Title {
+        font-size: 24px;
+      }
+
+      &Proffession {
+        font-size:13px;
+      }
+
+      &Testimony {
+        font-size:18px;
+      }
+    }
+  }
+}
